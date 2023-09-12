@@ -1,14 +1,16 @@
 body{
-  background-color: #4444;
-  color: #ddddd;
+  background-color: #001144;
+  color: #dddddd;
   font-family: Verdana, Helvetica, sans-serif;
   margin: 10% 20%
 }
 
 h1{
   text-align:center;
-  color: rgba(0,100,100, 100);
-  
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  color: #008899;
+  font-size: 50px;
 }
 
 .exp-header {
@@ -16,5 +18,5 @@ h1{
   text-transform: uppercase;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,100,100, 0.9);
+  background-color: #008899;
 }
