@@ -1,22 +1,45 @@
 body{
-  background-color: #001144;
-  color: #dddddd;
-  font-family: Verdana, Helvetica, sans-serif;
   margin: 10% 20%
+  font-family: Calibri, Helvetica, Verdana, sans-serif;
+  background-image: linear-gradient(to right, #ffffff, #dbfff1);
+  color: #002570;
+}
+
+img{
+  max-width: 160px;
+  border-radius: 45%;
+}
+
+#right{
+  float: right;
 }
 
 h1{
+  border-top: 1px solid #002570;
+  border-bottom: 1px solid #002570;
   text-align:center;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  color: #008899;
+  font-family: Calibri, times, cambria, sans-sefif;
   font-size: 50px;
+  color: #002570;
+  text-shadow: 0 0 4px #00db8b, 0 0 10px #b3ffe3;
 }
 
 .exp-header {
   text-align:center;
+  font-family: calibri, times, cambria, sans-sefif;
   text-transform: uppercase;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
-  background-color: #008899;
+  background-color: #002570;
+  color: #b3ffe3; 
+}
+
+h4{
+   border-bottom: 1px solid #002570;
+  border-top: 1px solid #002570;
+  padding: 0 0 20px 0
+}
+
+h5{
+  margin: -15px 0 0 0
 }
